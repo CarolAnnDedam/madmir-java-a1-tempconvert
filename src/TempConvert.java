@@ -12,8 +12,8 @@ public class TempConvert {
 		tempF = sc.nextInt();
 		tempC = (tempF - 32 ) * 5 / 9;
 		
-		System.out.println(tempF + " degrees Fahrenheit equals");
-		System.out.println(tempC + " degrees Celcius" );
+		System.out.println(tempF + " degrees Fahrenheit equals" + tempC);
+		
 	}
 }
 
